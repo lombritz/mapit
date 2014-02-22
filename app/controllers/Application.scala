@@ -1,6 +1,5 @@
 package controllers
 
-import play.api._
 import play.api.mvc._
 
 object Application extends Controller {
@@ -9,7 +8,10 @@ object Application extends Controller {
     Ok(views.html.index("REALLY??"))
   }
 
-//  def about = Action {
-//    views.html.ind
-//  }
+  def about = TODO
+
+  def login = TODO
+
+  def signup = TODO
+
 }
